@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Dave Long",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-edge": "^2.0.2",
+    "mongoose": "^6.3.4",
+    "node": "^17.7.2",
+    "startbootstrap-clean-blog": "^6.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
